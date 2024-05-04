@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konu01Degiskenler", "Konu01Degiskenler\Konu01Degiskenler.csproj", "{D39CF9F0-1D36-4582-AC2C-299929CF3B8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konu02TipDonusumleri", "Konu02TipDonusumleri\Konu02TipDonusumleri.csproj", "{7F35A151-7436-479B-B92D-390D70BF4FB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konu03Operatorler", "Konu03Operatorler\Konu03Operatorler.csproj", "{BE7EB523-AB27-445D-AF53-0D5570A94FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu04KosulYapilari", "Konu04KosulYapilari\Konu04KosulYapilari.csproj", "{3B1284B8-F9C6-4663-8F95-C57DF3CDB391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu05Metotlar", "Konu05Metotlar\Konu05Metotlar.csproj", "{2E40C1B7-9B45-48C5-8BCC-FC34B182EAC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu06Diziler", "Konu06Diziler\Konu06Diziler.csproj", "{5DF34D12-B464-452A-B945-EF1E4BDF1450}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D39CF9F0-1D36-4582-AC2C-299929CF3B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39CF9F0-1D36-4582-AC2C-299929CF3B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39CF9F0-1D36-4582-AC2C-299929CF3B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39CF9F0-1D36-4582-AC2C-299929CF3B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F35A151-7436-479B-B92D-390D70BF4FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F35A151-7436-479B-B92D-390D70BF4FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F35A151-7436-479B-B92D-390D70BF4FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F35A151-7436-479B-B92D-390D70BF4FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE7EB523-AB27-445D-AF53-0D5570A94FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7EB523-AB27-445D-AF53-0D5570A94FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7EB523-AB27-445D-AF53-0D5570A94FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7EB523-AB27-445D-AF53-0D5570A94FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B1284B8-F9C6-4663-8F95-C57DF3CDB391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1284B8-F9C6-4663-8F95-C57DF3CDB391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1284B8-F9C6-4663-8F95-C57DF3CDB391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1284B8-F9C6-4663-8F95-C57DF3CDB391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E40C1B7-9B45-48C5-8BCC-FC34B182EAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E40C1B7-9B45-48C5-8BCC-FC34B182EAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E40C1B7-9B45-48C5-8BCC-FC34B182EAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E40C1B7-9B45-48C5-8BCC-FC34B182EAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF34D12-B464-452A-B945-EF1E4BDF1450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF34D12-B464-452A-B945-EF1E4BDF1450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF34D12-B464-452A-B945-EF1E4BDF1450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF34D12-B464-452A-B945-EF1E4BDF1450}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {737B286B-AD66-4DED-88CC-E088CF408ED5}
+	EndGlobalSection
+EndGlobal
