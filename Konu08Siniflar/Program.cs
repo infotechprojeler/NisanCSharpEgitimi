@@ -1,4 +1,6 @@
-﻿namespace Konu08Siniflar
+﻿using ClassLibrary1;
+
+namespace Konu08Siniflar
 {
     class Ev // kendi sınıfımızı bu şekilde oluşturuyoruz
     {
@@ -84,7 +86,7 @@
             Console.WriteLine("metotKullanimi: " + metotKullanimi.ToplamaYap(10, 8));
 
             Console.WriteLine();
-
+            /*
             Console.WriteLine("Kullanıcı Adınızı Giriniz:");
             var kullaniciAdi = Console.ReadLine();
 
@@ -93,6 +95,27 @@
 
             bool sonuc = metotKullanimi.LoginKontrol(kullaniciAdi, kullaniciSifre);
             Console.WriteLine("login kontrol: " + (sonuc == true ? "Giriş Başarılı.." : "Giriş Başarısız!"));
+            */
+            Category category = new Category() // bu kategori classlibrary1 projesinden geliyor!
+            {
+                Id = 1,
+                Name = "Telefon"
+            };
+            Console.WriteLine("Kategori Adı: " + category.Name);
+
+            Category.StatikDeger = "static elemeanlara direk classadı.propadı şeklinde erişebiliriz, class ı newlemeye gerek yoktur";
+            Console.WriteLine(Category.StatikDeger);
+
+            Console.WriteLine();
+
+            Product product = new Product()
+            {
+                Id = 1,
+                Name = "Ayfon 18 plas",
+                Description = "Daha büyük çentik, süper kamera"
+            };
+            Console.WriteLine("Ürün Adı: " + product.Name);
+            Console.WriteLine("Ürün Açıklaması: " + product.Description);
 
         } // main metot bitişi
     } // program clası bitiş
