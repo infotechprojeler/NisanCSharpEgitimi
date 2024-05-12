@@ -27,11 +27,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konu10StringSinifi", "Konu1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konu11Enumlar", "Konu11Enumlar\Konu11Enumlar.csproj", "{1CACBF7C-41F4-4AF1-9493-D52EB872EF7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu12KalitimInheritance", "Konu12KalitimInheritance\Konu12KalitimInheritance.csproj", "{4A5917A9-F86A-460E-B9C9-CB308C35D2AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konu12KalitimInheritance", "Konu12KalitimInheritance\Konu12KalitimInheritance.csproj", "{4A5917A9-F86A-460E-B9C9-CB308C35D2AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu13Kapsulleme", "Konu13Kapsulleme\Konu13Kapsulleme.csproj", "{72F42632-F152-4DC4-B1B0-580E5CBD670F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konu13Kapsulleme", "Konu13Kapsulleme\Konu13Kapsulleme.csproj", "{72F42632-F152-4DC4-B1B0-580E5CBD670F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu14Interfaces", "Konu14Interfaces\Konu14Interfaces.csproj", "{5B832141-374C-474C-879C-01B25EA33F07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konu14Interfaces", "Konu14Interfaces\Konu14Interfaces.csproj", "{5B832141-374C-474C-879C-01B25EA33F07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu15AbstractSiniflar", "Konu15AbstractSiniflar\Konu15AbstractSiniflar.csproj", "{4411E959-7465-4258-A409-F0AE21BC52D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu16Koleksiyonlar", "Konu16Koleksiyonlar\Konu16Koleksiyonlar.csproj", "{F8ACAA2D-F37F-4611-8808-7949D408899D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{5B832141-374C-474C-879C-01B25EA33F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B832141-374C-474C-879C-01B25EA33F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B832141-374C-474C-879C-01B25EA33F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4411E959-7465-4258-A409-F0AE21BC52D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4411E959-7465-4258-A409-F0AE21BC52D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4411E959-7465-4258-A409-F0AE21BC52D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4411E959-7465-4258-A409-F0AE21BC52D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8ACAA2D-F37F-4611-8808-7949D408899D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8ACAA2D-F37F-4611-8808-7949D408899D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8ACAA2D-F37F-4611-8808-7949D408899D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8ACAA2D-F37F-4611-8808-7949D408899D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
