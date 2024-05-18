@@ -33,9 +33,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konu13Kapsulleme", "Konu13K
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konu14Interfaces", "Konu14Interfaces\Konu14Interfaces.csproj", "{5B832141-374C-474C-879C-01B25EA33F07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu15AbstractSiniflar", "Konu15AbstractSiniflar\Konu15AbstractSiniflar.csproj", "{4411E959-7465-4258-A409-F0AE21BC52D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konu15AbstractSiniflar", "Konu15AbstractSiniflar\Konu15AbstractSiniflar.csproj", "{4411E959-7465-4258-A409-F0AE21BC52D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu16Koleksiyonlar", "Konu16Koleksiyonlar\Konu16Koleksiyonlar.csproj", "{F8ACAA2D-F37F-4611-8808-7949D408899D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konu16Koleksiyonlar", "Konu16Koleksiyonlar\Konu16Koleksiyonlar.csproj", "{F8ACAA2D-F37F-4611-8808-7949D408899D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konu17HataYonetimi", "Konu17HataYonetimi\Konu17HataYonetimi.csproj", "{F7B28D60-30AA-4882-B9F3-4D0C1F295D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konu18SOLIDPrensipleri", "Konu18SOLIDPrensipleri\Konu18SOLIDPrensipleri.csproj", "{66135E10-19CA-4E2B-85B2-F1380BB64741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{4B8C92DA-B83B-48B1-8828-1C8566199949}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +117,18 @@ Global
 		{F8ACAA2D-F37F-4611-8808-7949D408899D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8ACAA2D-F37F-4611-8808-7949D408899D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8ACAA2D-F37F-4611-8808-7949D408899D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B28D60-30AA-4882-B9F3-4D0C1F295D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B28D60-30AA-4882-B9F3-4D0C1F295D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B28D60-30AA-4882-B9F3-4D0C1F295D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B28D60-30AA-4882-B9F3-4D0C1F295D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66135E10-19CA-4E2B-85B2-F1380BB64741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66135E10-19CA-4E2B-85B2-F1380BB64741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66135E10-19CA-4E2B-85B2-F1380BB64741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66135E10-19CA-4E2B-85B2-F1380BB64741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B8C92DA-B83B-48B1-8828-1C8566199949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8C92DA-B83B-48B1-8828-1C8566199949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8C92DA-B83B-48B1-8828-1C8566199949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8C92DA-B83B-48B1-8828-1C8566199949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

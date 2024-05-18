@@ -266,6 +266,9 @@ namespace Konu16Koleksiyonlar
             {
                 Console.WriteLine($"Kullanıcı Bilgileri : No: {item.Id} Adı : {item.Name} Email {item.Password}");
             }
+
+            Console.WriteLine();
+
             var yeniKullanici = new User()
             {
                 Id = 6, Name = "Lider", Email = "lider@liderpide.net", Password = "Lid159"
@@ -275,6 +278,38 @@ namespace Konu16Koleksiyonlar
             users.Add(yeniKullanici); // users listesine yeniKullanici yı ekledik
             Console.WriteLine("Şimdi var mı?");
             Console.WriteLine(users.Contains(yeniKullanici));
+
+            Console.WriteLine();
+
+            Console.WriteLine("yeniKullanici ekleme sonrası döngü:");
+            foreach (User item in users)
+            {
+                Console.WriteLine($"Kullanıcı Bilgileri : No: {item.Id} Adı : {item.Name} Email {item.Password}");
+            }
+
+            users.Insert(1, yeniKullanici); // Insert metodu listeye, verilen sıraya (1) 2. parametrede verilen datayı ekler
+
+            Console.WriteLine();
+
+            Console.WriteLine("Insert metoduyla yeniKullanici ekleme sonrası döngü:");
+            foreach (User item in users)
+            {
+                Console.WriteLine($"Kullanıcı Bilgileri : No: {item.Id} Adı : {item.Name} Email {item.Password}");
+            }
+
+            Console.WriteLine();
+
+            var kullaniciSilindimi = users.Remove(yeniKullanici);
+            if (kullaniciSilindimi == true)
+            {
+                Console.WriteLine(yeniKullanici.Name + " listeden başarıyla silindi..");
+                Console.WriteLine("Remove metoduyla yeniKullanici silme sonrası döngü:");
+                foreach (User item in users)
+                {
+                    Console.WriteLine($"Kullanıcı Bilgileri : No: {item.Id} Adı : {item.Name} Email {item.Password}");
+                }
+            }
+
         }
     }
     class User
