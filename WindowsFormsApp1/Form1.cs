@@ -23,5 +23,19 @@ namespace WindowsFormsApp1
             label2.Text = "load metodu form ekrana yüklenirken çalışır";
             label2.Text += "projeye yeni bir form eklemek için projeye sağ klik add form menüsünü kullanabiliriz.";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // ekrandaki nesnelere çift click yaparak tıklandıklarında çalıştıracağımız kodların metodunu oluştururuz.
+            label2.Text = "button1_Click çalıştı!";
+            Form2 form2 = new Form2(); // Form2 sınıfından 1 nesne oluştur
+            // form2.ShowDialog(); // bu nesneyi ekrana getir.
+            form2.Show(); // diğer gösterim metodumuz
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close(); // bu formu kapat
+        }
     }
 }
