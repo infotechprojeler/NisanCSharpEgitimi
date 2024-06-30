@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Eğitimi</title>
+</head>
+<body>
+    Html Eğitimi
+    <br> html de br yazıp tab a basarak yazıyı bir alt satıra geçiriyoruz.
+    <br>
+    1 sayfada 1 tane html 1 tane head 1 tane de body etiketi olmalıdır!
+    <br>
+    TEMEL HTML ELEMENTLERİ
+    <BR>
+    BAŞLIK ELEMENTLERİ
+    <br>
+    html elementlerini yazıp tab tuşuna basarak otomatik oluşturuyoruz. Misal h1 tab.
+    <h1>h1 En büyük başlık elementidir.</h1>
+    <h2>h2 h1 in bir alt başlığı olarak kullanılabilir</h2>
+    <h3>h3 orta boyutlu başlık</h3>
+    <h4>h4 başlık</h4>
+    <h5>h5 başlık</h5>
+    <h6>h6 en küçük başlık türü</h6>
+    <p>
+        p elementi sayfada paragraf metni oluşturmak için kullanılır.
+    </p>
+    <div>
+        div elementi sayfada ayrı bölümler oluşturmak için kullanılır.
+    </div>
+    <div>
+        her div ve p elementi ayrı satırlarda gösterilir, yan yana gösterilmez.
+    </div>
+    <h3>
+        a Elementi ile sayfalar arası bağlantı verme
+    </h3>
+    <a href="/anasayfa.html">Anasayfa</a>
+    <br><br>
+    <a href="https://www.google.com.tr/">google</a>
+    <br><br>
+    <a href="https://www.google.com.tr/" target="_blank">google ı yeni sekmede aç</a>
+    <br><br>
+    <a href="olmayansayfa.html">Olmayan sayfa tarayıcı tarafından 404 not found-sayfa bulunamadı hatası döndürür</a>
+    <h3>
+        Sayfada Resim Gösterme
+    </h3>
+    <p>
+        web sayfalarında resim göstermek için img elementi kullanılır, src özelliğine resmin konumu verilir, eğer boyutlandırma yapacaksak width ve heigth özellikleri de eklenebilir.
+    </p>
+    <img src="/Images/google.png" alt="alt tagı resim hakkında tarayıcıya bilgi verir">
+    <img src="/Images/logoInfotechAcademy.png" alt="logoInfotechAcademy" title="title özelliği resme açılır bilgi alanı ekler">
+    <img src="/Images/logoInfotechAcademy.png" alt="logoInfotechAcademy" width="118" title="width 118">
+    <img src="/Images/logoInfotechAcademy.png" alt="logoInfotechAcademy" height="18" title="height 18">
+    <p>
+        Resimlere width özelliği ile genişlik, height özelliğiyle yükseklik değeri belirleyebiliriz.
+    </p>
+    <h3>
+        Sayfada Tablo İle Ekran Tasarımı
+    </h3>
+    <p>
+        Bir web sayfasını table tr ve td taglarıyla tasarlayabiliriz.
+        <br>
+        Genelde tablolar veri gösterimi gibi işlemlerde kullanılır.
+    </p>
+    <table>
+        <tr>
+            <td>
+                1 table 1 tr 1 td den oluşan tablo
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>
+                1 table 1 tr 1 th dan oluşan tablo
+            </th>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td>
+                tablo ya border özelliği vererek çerçeveyi görünür hale getiririz.
+            </td>
+            <td>
+                1. satırdaki 2. kolon (1 tr içindeki her td yan yana 1 kolon açar)
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1">
+        <tr>
+            <td>1. satır 1. sütun</td>
+            <td>1. satır 2. sütun</td>
+        </tr>
+        <tr>
+            <td>2. satır 1. sütun</td>
+            <td>2. satır 2. sütun</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1">
+        <tr>
+            <td>1. satır 1. sütun</td>
+            <td>1. satır 2. sütun</td>
+            <td>1. satır 3. sütun</td>
+        </tr>
+        <tr>
+            <td>2. satır 1. sütun</td>
+            <td>2. satır 2. sütun</td>
+            <td>2. satır 3. sütun</td>
+        </tr>
+        <tr>
+            <td>3. satır 1. sütun</td>
+            <td>3. satır 2. sütun</td>
+            <td>3. satır 3. sütun</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <td>
+                <a href="/anasayfa.html">anasayfa</a>
+            </td>
+            <td>
+                <a href="/index.html">index</a>
+            </td>
+            <td>
+                <a href="#">iletişim</a>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="1">
+        <tr>
+            <th>Kategori No</th>
+            <th>Kategori Adı</th>
+            <th>Durum</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Elektronik</td>
+            <td>Aktif</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bilgisayar</td>
+            <td>Pasif</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Telefon</td>
+            <td>Aktif</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h3>
+        Tablolarda Satır ve Sütunları Birleştirme
+    </h3>
+
+    <table border="1">
+        <caption>
+            <h3>
+                caption ile tablo içerisine başlık ekleyebiliriz
+            </h3>
+        </caption>
+        <tr>
+            <td rowspan="3">
+                Ürün Bilgileri
+            </td>
+        </tr>
+        <tr>
+            <td>Ürün Adı:</td>
+            <td>Dell Laptop</td>
+        </tr>
+        <tr>
+            <th rowspan="3">
+                rowspan özelliği ile kolona lazım olan sayı kadar satırlık alan kaplamasını sağlayabiliriz.
+            </th>
+            <td>
+                <img src="/Images/google.png" alt="" height="118">
+            </td>
+        </tr>
+    </table>
+
+    <h3>
+        Colspan ile Sütunları Birleştirme
+    </h3>
+
+    <table border="1" width="555">
+        <tr>
+            <th>
+                Ürün Adı
+            </th>
+            <td>
+                Klavye
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                bu td de colspan="2" özelliğiyle 1 td nin 2 kolonluk yer kaplaması sağlandı
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1 satırda tek td
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <i>i elementi</i>
+    <br>
+    <em>em elementi</em>
+    <br>
+    <span>span elementi</span>
+    <span>yan yana metinler için kullanılır</span>
+    <br>
+    <b>b elementi metni bold-kalın yapmak için kullanılır</b>
+    <br>
+    <strong>strong elementi vurgulanmak istenen alanı kalın gösterir</strong>
+
+    <h2>
+        Element içinde <small>small ile</small> bir yazıyı daha küçük gösterebiliriz
+    </h2>
+
+    <div>
+        Bir yazı içerisinde <mark>vurgulamak istediğimiz alanı mark ile</mark> gösterebiliriz.
+    </div>
+
+    <ins>
+        html ins elementi
+    </ins>
+
+    <p>
+        sub elementi ile <sub>alt</sub> çıkıntılı metin gösterebiliriz
+    </p>
+
+    <p>
+        sup elementi ile <sup>üst</sup> çıkıntılı metin gösterebiliriz
+    </p>
+
+    <hr>
+
+    <h3>
+        Html Liste Elementleri
+    </h3>
+
+    <p>
+        Sıralı, sırasız ve açıklamalı olmak üzere 3 farklı liste elementi var.
+    </p>
+
+    <ul>
+        <li>Unordered list - ul - sırasız liste</li>
+        <li>sırasız liste oluşturur</li>
+        <li>ul elementi altına li eklenerek oluşturulur</li>
+    </ul>
+
+    <ul>
+        <li>
+            <a href="/anasayfa.html">anasayfa</a>
+        </li>
+        <li>
+            <a href="/index.html">index</a>
+        </li>
+        <li>
+            <a href="#iletisim">iletişim</a>
+        </li>
+    </ul>
+
+    <h4>Ordered List</h4>
+
+    <ol>
+        <li>Elektronik</li>
+        <li>Bilgisayar</li>
+        <li>Telefon</li>
+    </ol>
+</body>
+</html>
