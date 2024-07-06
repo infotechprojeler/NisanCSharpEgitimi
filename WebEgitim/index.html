@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Eğitimi</title>
 </head>
+
 <body>
     Html Eğitimi
     <br> html de br yazıp tab a basarak yazıyı bir alt satıra geçiriyoruz.
@@ -45,10 +47,12 @@
         Sayfada Resim Gösterme
     </h3>
     <p>
-        web sayfalarında resim göstermek için img elementi kullanılır, src özelliğine resmin konumu verilir, eğer boyutlandırma yapacaksak width ve heigth özellikleri de eklenebilir.
+        web sayfalarında resim göstermek için img elementi kullanılır, src özelliğine resmin konumu verilir, eğer
+        boyutlandırma yapacaksak width ve heigth özellikleri de eklenebilir.
     </p>
     <img src="/Images/google.png" alt="alt tagı resim hakkında tarayıcıya bilgi verir">
-    <img src="/Images/logoInfotechAcademy.png" alt="logoInfotechAcademy" title="title özelliği resme açılır bilgi alanı ekler">
+    <img src="/Images/logoInfotechAcademy.png" alt="logoInfotechAcademy"
+        title="title özelliği resme açılır bilgi alanı ekler">
     <img src="/Images/logoInfotechAcademy.png" alt="logoInfotechAcademy" width="118" title="width 118">
     <img src="/Images/logoInfotechAcademy.png" alt="logoInfotechAcademy" height="18" title="height 18">
     <p>
@@ -279,5 +283,161 @@
         <li>Bilgisayar</li>
         <li>Telefon</li>
     </ol>
+
+    <h4>
+        Açıklamalı Liste
+    </h4>
+    <dl>
+        <dt>Ürün Adı:</dt>
+        <dd>Asus laptop</dd>
+        <dt>Fiyatı:</dt>
+        <dd>18.000₺</dd>
+        <dt>Stok:</dt>
+        <dd>18 Adet</dd>
+        <dt>Ürün Resmi:</dt>
+        <dd><img src="/Images/google.png" alt="google"></dd>
+    </dl>
+
+    <h3>Html Koduna Yorum Satırı Ekleme</h3>
+    <p>
+        kod editöründe html kodları arasına bir yorum satırı eklemek istersek ilgli metni seçip ctrl+k +c kısayıloyla yorum satırı yapabiliriz.
+        <br>
+        Yorum satırını açmak için ctrl tuşuna basılı tutarken k + u tuşları yorum satırını açar.
+    </p>
+    <!-- Burası yorum alanı kod bitişi -->
+
+    <h3>Fieldset Elementi</h3>
+    <fieldset>
+        <legend>Kullanıcı Girişi</legend>
+        <form action="/index.html">
+            <table border="1">
+                <tr>
+                    <td>Kullanıcı Adı</td>
+                    <td><input type="text" name="username" id="username"></td>
+                </tr>
+                <tr>
+                    <td>Şifre</td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Giriş"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+    <h3>Get Metoduyla Ürün Arama</h3>
+    <form action="/search.html" method="get">
+        <input type="search" name="kelime" id="kelime" value="" placeholder="Ürün Ara">
+        <input type="submit" value="Ara">
+    </form>
+
+    <h3>Post Metoduyla İşlem Yapma</h3>
+    <form action="/search.html" method="post">
+        <table>
+            <tr>
+                <td>Ürün Adı</td>
+                <td><input type="text" name="txtUrunAdi" id="txtUrunAdi"></td>
+            </tr>
+            <tr>
+                <td>Fiyatı</td>
+                <td><input type="text" name="txtUrunFiyati" id="txtUrunFiyati"></td>
+            </tr>
+            <tr>
+                <td>Stok</td>
+                <td><input type="text" name="txtUrunStok" id="txtUrunStok"></td>
+            </tr>
+            <tr>
+                <td>Ürün Kategorisi</td>
+                <td>
+                    <select name="kategori" id="kategori">
+                        <option value="-1">Seçiniz</option>
+                        <option value="1">Elektronik</option>
+                        <option value="2">Bilgisayar</option>
+                        <option value="3">Telefon</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Ürün Açıklaması</td>
+                <td>
+                    <textarea name="aciklama" id="aciklama" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Durum</td>
+                <td>
+                    <input type="checkbox" name="durum" id="durum">
+                    <label for="durum">Aktif</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Anasayfa</td>
+                <td>
+                    <input type="radio" name="cbAnasayfa" id="cbAnasayfa">
+                    <label for="cbAnasayfa">Göster</label>
+                    <input type="radio" name="cbAnasayfa" id="cbAnasayfa">
+                    <label for="cbAnasayfa">Gösterme</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Temizle"></td>
+                <td><input type="button" value="Kaydet"></td>
+            </tr>
+        </table>
+    </form>
+
+    <h2>Semantik Html5 Elementleri</h2>
+    <div>
+        Html ye sonradan eklenen ve tasarımları daha anlaşılabilir hale getirmeyi hedefleyen elementlerdir.
+    </div>
+
+    <header>
+        Web sayfalarının en üst bölümü bu element içinde yer alır.
+        <nav>
+            <ul>
+                <li>
+                    <a href="/anasayfa.html">Anasayfa</a>
+                </li>
+                <li>
+                    <a href="/index.html">Index</a>
+                </li>
+                <li>
+                    <a href="/search.html">Arama</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        section web sayfamızın ana gövdesini tutmak için kullanılabilir.
+        <aside>
+            aside elementi yan menüleri ifade etmek için kullanılır.
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/anasayfa.html">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="/index.html">Index</a>
+                    </li>
+                    <li>
+                        <a href="/search.html">Arama</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <article>
+            article elementi bilgi verme amaçlı haber, makale vb gibi içerik kapsayıcısı olarak kullanılabilir.
+        </article>
+        <figure>
+            <figcaption>resim alanlarını çevrelemek için figcaption kullanabiliriz.</figcaption>
+            <img src="/Images/google.png" alt="google">
+        </figure>
+    </section>
+    <footer>
+        footer elementi ise web sayfalarının en alt kısmını çevrelemek için kullanılabilir.
+    </footer>
 </body>
+
 </html>
