@@ -45,6 +45,25 @@
             $("#mesaj").text("başlıktan gelen içerik : " + secilecekEleman[0].innerText)
         })
     </script>
+
+    <hr />
+    
+    <h2 id="etiket">Html Elementlerini Etiket Adına(Html Taglarına) Göre Seçme</h2>
+    <p id="etiketmesaj" style="border:1px outset red"></p>
+    <script>
+        var secilecekElemanlar = $("h2")
+        $("#etiketmesaj").text("başlıktan gelen içerik :" + secilecekElemanlar[1].innerText)
+    </script>
+    
+    <hr />
+
+    <h2 id="sinif" class="sinif">Html Elementlerini Class Adına Göre Seçme</h2>
+    <p id="sinifmesaj" class="sinif" style="border:1px outset blueviolet"></p>
+    <script>
+        var secilecekElemanlar = $(".sinif")
+        $("#sinifmesaj").text("başlıktan gelen içerik :" + secilecekElemanlar[0].innerText)
+    </script>
+
 </body>
 
 </html>
