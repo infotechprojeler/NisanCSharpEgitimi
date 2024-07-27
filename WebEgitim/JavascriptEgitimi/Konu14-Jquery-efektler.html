@@ -38,6 +38,16 @@
             $("#box").fadeToggle()
         })
     </script>
+    <input type="button" id="buton5" value="Yükseklik animasyonu" />
+    <input type="button" id="buton6" value="animasyonu sıfırla" />
+    <script>
+        $("#buton5").on("click", function () {
+            $("#box").animate({ "height": "200px" })
+        })
+        $("#buton6").on("click", function () {
+            $("#box").animate({ "height": "100px" })
+        })
+    </script>
 </body>
 
 </html>

@@ -102,6 +102,37 @@
 
     <hr />
 
+    <h2>Jquery ile Html Elementleri Gizleme/Gösterme</h2>
+
+    <ul>
+        <li id="anasayfaLink">Anasayfa</li>
+        <li id="hakkimizdaLink">Hakkımızda</li>
+        <li id="urunlerimizLink">Ürünlerimiz</li>
+        <li id="iletisimLink">İletişim</li>
+    </ul>
+    <div id="anasayfa" style="border: 1px dashed red;">
+        Anasayfa içeriği
+    </div>
+    <div id="hakkimizda" style="display: none; border: 1px dashed red;">
+        Hakkımızda içeriği
+    </div>
+    <div id="urunlerimiz" style="display: none; border: 1px dashed red;">
+        Ürünlerimiz içeriği
+    </div>
+    <div id="iletisim" style="display: none; border: 1px dashed red;">
+        İletişim sayfası içeriği
+    </div>
+
+    <script>
+        $("#hakkimizdaLink").on("click", function () {
+            $("#anasayfa").hide()
+            $("#hakkimizda").show()
+            $("#iletisim").hide()
+        })
+    </script>
+
+    <hr>
+
     <h2>Jquery ile Change Olayını Yakalama</h2>
     <input type="text" id="degisim" />
     <h3 id="jqchange"></h3>
